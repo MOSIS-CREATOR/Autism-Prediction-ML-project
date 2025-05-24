@@ -6,17 +6,17 @@ This project uses machine learning techniques to predict the likelihood of Autis
 
 The notebook contains:
 
-- Importing the Dependencies
+1. Importing the Dependencies
 For clarity and reproducibility, all necessary libraries (e.g., pandas, sklearn, xgboost, seaborn, etc.) are imported at the beginning.
 
-- Data Loading and Understanding
+2. Data Loading and Understanding
 The dataset is loaded and inspected:
 
 Shapes, data types, and missing values.
 
 Basic statistics using .describe() and .info().
 
-- Exploratory Data Analysis (EDA)
+3. Exploratory Data Analysis (EDA)
 Visual and statistical exploration to understand:
 
 Class distributions.
@@ -27,7 +27,7 @@ Correlations (heatmaps, countplots, etc.).
 
 Detection of outliers or imbalances.
 
-- Data Preprocessing
+4. Data Preprocessing
 Dropping irrelevant features (ID, age_desc, etc.).
 
 Encoding categorical variables.
@@ -36,21 +36,21 @@ Handling missing values.
 
 SMOTE to balance the dataset.
 
-- Model Training
+5. Model Training
 Multiple models trained for comparison, such as:
 
-1. Logistic Regression
+a. Logistic Regression
 
-2. Decision Tree
+b. Decision Tree
 
-3. XGBoost (etc.)
+c. XGBoost (etc.)
 
-- Model Selection and Hyperparameter Tuning
+6. Model Selection and Hyperparameter Tuning
 Evaluating models with cross-validation.
 
 Using techniques like RandomizedSearchCV or manual tuning to optimise model parameters.
 
-- Model Evaluation
+7. Model Evaluation
 Accuracy, Precision, Recall, F1 Score.
 
 Confusion matrix.
