@@ -39,11 +39,11 @@ SMOTE to balance the dataset.
 - Model Training
 Multiple models trained for comparison, such as:
 
-Logistic Regression
+1. Logistic Regression
 
-Decision Tree
+2. Decision Tree
 
-XGBoost (etc.)
+3. XGBoost (etc.)
 
 - Model Selection and Hyperparameter Tuning
 Evaluating models with cross-validation.
@@ -101,7 +101,7 @@ weighted avg       0.85      0.84      0.85       160
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/mosis-creator/autism-prediction.git
+   git clone https://github.com/MOSIS-CREATOR/Autism-Prediction-ML-project
    ```
 2. Navigate to the project directory:
    ```bash
