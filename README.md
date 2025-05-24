@@ -7,55 +7,55 @@ This project uses machine learning techniques to predict the likelihood of Autis
 The notebook contains:
 
 1. Importing the Dependencies
-For clarity and reproducibility, all necessary libraries (e.g., pandas, sklearn, xgboost, seaborn, etc.) are imported at the beginning.
+	For clarity and reproducibility, all necessary libraries (e.g., pandas, sklearn, xgboost, seaborn, etc.) are imported at the beginning.
 
 2. Data Loading and Understanding
-The dataset is loaded and inspected:
+	The dataset is loaded and inspected:
 
-Shapes, data types, and missing values.
+	Shapes, data types, and missing values.
 
-Basic statistics using .describe() and .info().
+	Basic statistics using .describe() and .info().
 
 3. Exploratory Data Analysis (EDA)
-Visual and statistical exploration to understand:
+	Visual and statistical exploration to understand:
 
-Class distributions.
+	Class distributions.
 
-Feature relationships.
+	Feature relationships.
 
-Correlations (heatmaps, countplots, etc.).
+	Correlations (heatmaps, countplots, etc.).
 
-Detection of outliers or imbalances.
+	Detection of outliers or imbalances.
 
 4. Data Preprocessing
-Dropping irrelevant features (ID, age_desc, etc.).
+	Dropping irrelevant features (ID, age_desc, etc.).
 
-Encoding categorical variables.
+	Encoding categorical variables.
 
-Handling missing values.
+	Handling missing values.
 
-SMOTE to balance the dataset.
+	SMOTE to balance the dataset.
 
 5. Model Training
-Multiple models trained for comparison, such as:
+	Multiple models trained for comparison, such as:
 
-a. Logistic Regression
+	a. Logistic Regression
 
-b. Decision Tree
+	b. Decision Tree
 
-c. XGBoost (etc.)
+	c. XGBoost (etc.)
 
 6. Model Selection and Hyperparameter Tuning
-Evaluating models with cross-validation.
+	Evaluating models with cross-validation.
 
-Using techniques like RandomizedSearchCV or manual tuning to optimise model parameters.
+	Using techniques like RandomizedSearchCV or manual tuning to optimise model parameters.
 
 7. Model Evaluation
-Accuracy, Precision, Recall, F1 Score.
+	Accuracy, Precision, Recall, F1 Score.
 
-Confusion matrix.
+	Confusion matrix.
 
-Discussion on performance and potential improvements.
+	Discussion on performance and potential improvements.
 
 ## Dataset
 
