@@ -105,7 +105,7 @@ weighted avg       0.85      0.84      0.85       160
    ```
 2. Navigate to the project directory:
    ```bash
-   cd autism-prediction
+   cd Autism-Prediction-ML-project
    ```
 3. Install dependencies:
    ```bash
